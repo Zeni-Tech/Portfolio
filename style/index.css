@@ -26,7 +26,6 @@
 
 
 .hero_title {
-    font-size: 3rem;
     font-style: italic;
     color:white
 }
@@ -47,6 +46,9 @@
     font-style: italic;
     font-weight: bold;
     text-decoration: none;
+}
+#download-button:hover{
+   color: white; 
 }
 
 /* Main banner */
@@ -98,21 +100,66 @@
 }
 
 
+/* Skills */
+#Skills{
+    background-color:#1F252B;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    height: 600px;
+    font-style: italic;
+}
+#RS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+
+/* start about */
+.progress
+    {
+        border-radius: 4px;
+        background: #ffffff;
+        height: 4px;
+    }
+ .progress .progress-bar-danger
+    {
+        background:#04D9FF;
+    }
+ span
+    {
+        color: #ffffff;
+        font-weight: bold;
+    }
+ small
+    {
+        font-weight: bold;
+        float: right;
+    }
+/* end about */
+
+
 
 
 /* Services section */
 #services{
     color: white;
-    background-color: #1F252B;
+    background-color:#323846;
     padding: 60px;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic;
  
 }
 #card-body{
-    background-color:#323846;
+    background-color:#1F252B;
     color: white;
     border: none;
 }
@@ -146,6 +193,9 @@
 #icons-logo{
     color: #04D9FF;
 }
+#icons-logo:hover{
+    color: white;   
+}
 
 
 
@@ -160,26 +210,25 @@
 
 /* Portfolio */
 #portfolio{
-    background-color: #323846;
+    background-color:#1F252B;
     color: white;
-    height: 1200px;
+
+    font-style: italic;
 }
 #portcardbody{
-    background-color: #1F252B;
+    background-color:#323846;
     color: white;
 }
-#btn1{
-    color: white;
+#buttons a{
     background-color: #04D9FF;
-}
-#btn1:hover{
-   box-shadow: 0px 0px 10px #04D9FF;
+    padding: 10px 40px;
 }
  
 
 /* Contact */
 .Top{
-    background-color: #1F252B;
+    background-color:#323846;
+    font-style: italic;
 }
 #name{
     padding: 10px;
